@@ -1,0 +1,66 @@
+<script type="text/javascript">
+    $(function(){
+        $('#support').click(function(){
+            $.get('/user/like/' + '{$user.id}', function(e){
+                if (e == '0') 
+                    alert('无效');
+                else {
+                    var attract_num = parseInt($('#attract_num').text());
+                    attract_num += 1;
+                    $('#attract_num').text('' + attract_num);
+                }
+            });
+        });
+    });
+</script>
+{include file="user/header.tpl"}
+<div id="system_news">
+    <ol>
+        <li>
+        </li>
+        <li>
+        </li>
+        <li>
+        </li>
+    </ol>
+</div>
+<img src="/upload/avatar/{$user.medium_avatar}" id="user_head" />
+<p id="user_name">
+    {$user.name}
+</p>
+<p id="user_info">
+    {$user.description}
+</p>
+<p id="user_score">
+    {$user.total_score}分
+</p>
+<p>
+    <span id="attract_num">{$user.follow_count}</span>人欣赏你
+</p>
+<a href="#" id="support">顶</a>
+<div id="activity_list">
+    <ol>
+        <li>
+        </li>
+        <li>
+        </li>
+        <li>
+        </li>
+        <li>
+        </li>
+    </ol>
+</div>
+<div id="article_list">
+    <ol>
+        <li>
+        </li>
+        <li>
+        </li>
+        <li>
+        </li>
+        <li>
+        </li>
+        <li>
+        </li>
+    </ol>
+</div>

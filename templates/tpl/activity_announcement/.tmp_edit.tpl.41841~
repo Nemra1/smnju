@@ -1,0 +1,55 @@
+{include file="activity_announcement/admin_header.tpl"}
+<script type="text/javascript" src="{$siteurl}/templates/ckeditor/ckeditor.js">
+</script>
+{literal}
+<script type="text/javascript">
+    $("#activity_announcement_edit_commit").click(function(){
+        if (can_click_ajax == 0) {
+            return false;
+        }
+        set_ckeditor_val();
+        var url = $("#activity_announcement_edit_form").attr('action');
+        var submit_data = form2array("activity_announcement_edit_form");
+		if (submit_data['name'].length == 0 || submit_data['content'].length == 0||submit_data['activity_id'].length ==0 ) {
+           show_form_message_box('信息不完整！');
+         }
+        $.post(url, submit_data,function(data){
+			var r=get_ajax_result();
+			if(r['code']==0){
+				show_message_box('修改成功');
+			}else{
+				show_message_box(r['info']);
+			}
+		});
+        show_wait_message_box('修改中……');
+		return false;
+    });
+</script>
+{/literal}
+<form id="activity_announcement_edit_form" action="{$siteurl}/activity_announcement/edit/{$activity_announcement->id}" method="post">
+    <div>
+        <label>
+            活动名称
+        </label>
+        <input type="text" name="name" value='{$activity_announcement->name}'/>
+    </div>
+    <div>
+        <label>
+            内容
+        </label>
+        <textarea id="activity_edit_editor" name="content" class="ck_editor">
+            {$activity_announcement->content}
+        </textarea>
+    </div>
+    <div>
+        <label>
+            所属活动
+        </label>
+        <select name="activity_id">
+            {html_options options=$activities_options selected=$activity_announcement->activity_id}
+        </select>
+    </div>
+    <div>
+        <a href="#" id="activity_announcement_edit_commit">修改</a>
+    </div>
+</form>

@@ -1,0 +1,50 @@
+{include file="user/header.tpl"}
+<div class="content_center">
+{if $user.name}
+<div>
+    <label>
+        姓名：{$user.name}
+    </label>
+</div>
+{/if}
+<div>
+    <label>
+        昵称：{$user.alias_name}
+    </label>
+</div>
+{if $user.institute}
+<div>
+    <label>
+        院系：{$user.institute}
+    </label>
+</div>
+{/if} 
+{if $user.gender}
+<div>
+    <label>
+        性别：{$user.gender}
+    </label>
+</div>
+{/if}
+{if $user.telnum}
+<div>
+    <label>
+        手机：{$user.telnum}
+    </label>
+</div>
+{/if}
+{if $user.email}
+<div>
+    <label>
+        邮箱：{$user.email}
+    </label>
+</div>
+{/if}
+{if $user.birthday}
+<div>
+    <label>
+        生日：{$user.birthday}
+    </label>
+</div>
+{/if}
+</div>

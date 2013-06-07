@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    $(function(){
+        var activity_publish_editor = replace_editor('activity_publish_editor');
+        $('#activity_publish_commit').click(function(){
+            $('#activity_publish_form').submit();
+        });
+    });
+</script>
+
+    <form id="activity_publish_form" action="/activity/publish/" method="post">
+    <div>
+        <label>
+            标题
+        </label>
+        <input type="text" name="name"/>
+    </div>
+    <div>
+        <label>
+            内容
+        </label>
+        <input id="activity_publish_editor" name="content" />
+    </div>
+    <div>
+        <a href="#" id="activity_publish_commit">提交</a>
+    </div>
+
+</form>

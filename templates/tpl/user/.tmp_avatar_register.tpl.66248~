@@ -1,0 +1,46 @@
+{literal}
+<script type="text/javascript">
+    $(function(){
+        function clip_avatar(responseText, statusText){
+            if (responseText == '-1') 
+                alert('图片上传失败');
+            else {
+                $('#avatar_register_form').hide();
+                $('#clip_avatar_form').show();
+                var url = responseText;
+                $('#show_avatar').attr('src', url);
+            }
+        }
+        $('#avatar_register_commit').click(function(){
+            $("#avatar_register_form").ajaxSubmit({
+                success: clip_avatar,
+            });
+        });
+        
+    });
+</script>
+{/literal}
+<style>
+    #clip_avatar_form {
+        display: none;
+    }
+</style>
+<form id="avatar_register_form" action="{$site_url}/user/avatar_register/" method="post" enctype="multipart/form-data">
+    <div>
+        <label>
+            更改头像
+        </label>
+        <input type="file" name="avatar" />
+    </div>
+    <div>
+        <a href="#" id="avatar_register_commit">提交</a>
+        <a href="{$site_url}/user/privacy_register/" id="avatar_register_skip">略过（下一步）</a>
+    </div>
+</form>
+<form id="clip_avatar_form" method="post">
+	<h2>请裁剪图片</h2>
+    <div>
+        <img id="show_avatar" />
+    </div><a href="#" id="clip_avatar_commit">提交</a>
+    <a href="{$site_url}/user/privacy_register/" id="clip_avatar_skip">略过（下一步）</a>
+</form>

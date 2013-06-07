@@ -1,0 +1,16 @@
+<form id="add_user_point_form">
+	<input type="hidden" name="user_id"  value="312" />
+	<label>毛苏晗</label>
+	<select name="activity_name">
+		<option>
+			校园十大歌手
+		</option>
+	</select>
+	<select name="activity_prize">
+		<option value="2">
+			第二名 5分
+		</option>
+		<option value="3">第二名4分</option>
+	</select>
+	<input type="submit" value="提交" />
+</form>

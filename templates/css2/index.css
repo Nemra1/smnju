@@ -1,0 +1,134 @@
+#content_container {
+    padding: 0;
+}
+
+#user_panel {
+    margin:20px 0 40px 0;
+	width:400px;
+	float:left;
+	
+}
+
+#user_panel h3 {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#user_status #login_form input {
+    width: 170px;
+    height: 23px;
+    display: block;
+    border: 1px solid #32a332;
+    margin-bottom: 10px;
+	border-radius:3px;
+}
+
+
+#user_status a, #user_status span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#user_status .register_link{
+	padding:5px 10px 5px 10px;
+	border-radius:2px;
+	background-color:#2E7915;
+	color:#fff;
+	font-size:19px;
+}
+
+#user_status .login_link{
+	padding:5px 10px 5px 10px;
+	border-radius:2px;
+	background-color:#2E7915;
+	color:#fff;
+	font-size:19px;
+}
+
+#func_menu {
+    width: 400px;
+    float: left;
+}
+
+#func_menu h3 {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#func_menu .link_logo a {
+    float: left;
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#func_menu img {
+    width: 35px;
+    display: block;
+    margin: 0 auto 5px;;
+}
+
+#main_bg {
+    height: 235px;
+    background: url('../img2/main.png');
+}
+
+#news_list {
+    float: right;
+    width: 520px;
+    margin-left: 40px;
+}
+
+#news_list h3 {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.news_block {
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #000;
+    margin-top: 15px;
+}
+
+.news_block h4 {
+    margin-bottom: 15px;
+}
+
+.news_block h4 a {
+    font-size: 18px;
+}
+
+.news_block .news_desc {
+    margin-bottom: 5px;
+}
+
+.news_block .news_desc *, .news_block .news_desc {
+    vertical-align: middle;
+    font-size: 15px !important;
+}
+
+.news_block .news_desc img {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.news_block .news_date {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#hidden_nav {
+    display: none;
+}

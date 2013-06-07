@@ -1,0 +1,101 @@
+<link href="{$siteurl}/templates/css/index.css" rel="stylesheet" type="text/css" />
+
+{literal}
+<style>
+    .tab {
+        display: none
+    }
+    
+    #personal_show_tab {
+        display: block;
+    }
+	
+	#tab_links li{
+		float:left;
+		width:110px;
+		margin-left:13px;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+	}
+	
+	#tab_links{
+		margin-bottom:20px;
+	}
+	
+	#tab_links h3 a{
+		font-size:14px;
+	color: #225522;
+	} 
+	
+	/*#tab_links h3 a{
+		font-size:20px;
+		color:#fff;
+	} 
+	#tab_links li{
+		background-color:#5566ee;
+	}*/
+
+</style>
+{/literal}
+<div id="tabs">
+    <ul id="tab_links" class="fix_height shadow">
+        <li>
+            <h3><a href="#personal_show_tab">个人风采</a></h3>
+        </li>
+        <li>
+            <h3><a href="#discussion_tab">主题讨论</a></h3>
+        </li>
+        <li>
+            <h3><a href="#nice_article_tab">优秀征文</a></h3>
+        </li>
+        <li>
+            <h3><a href="#activity_tab">校园活动</a></h3>
+        </li>
+        <li>
+            <h3><a href="#site_announcement_tab">网站公告</a></h3>
+        </li>
+    </ul>
+    <div class="tab tab1" id="personal_show_tab">
+        {include file="index/personal_show.tpl"}
+    </div>
+    <div class="tab tab2" id="discussion_tab">
+        {include file="index/discussion.tpl"}
+    </div>
+    <div class="tab tab3" id="nice_article_tab">
+        {include file="index/nice_article.tpl"}
+    </div>
+    <div class="tab tab4" id="activity_tab">
+        {include file="index/activity.tpl"}
+    </div>
+    <div class="tab tab5" id="site_announcement_tab">
+        {include file="index/site_announcement.tpl"}
+    </div>
+</div>
+{literal}
+<script type="text/javascript">
+    $(function(){
+		var cur_tab=1;
+		var length=$('.tab').length;
+		
+        $("#tab_links li h3 a").each(function(){
+            var href = $(this).attr('href');
+            var tabid = href.substring(1);
+            $(this).hover(function(){
+				clearInterval(firstSlide);
+				$(".tab").hide();
+				$("#"+tabid).show();
+            });
+        });
+		
+		var firstSlide=setInterval(function(){
+			var next_tab=cur_tab+1;
+			if(next_tab==6)
+			next_tab=1;
+			$('.tab').hide();
+			$(".tab"+next_tab).show();
+		},5000);
+		
+    })
+</script>
+{/literal}

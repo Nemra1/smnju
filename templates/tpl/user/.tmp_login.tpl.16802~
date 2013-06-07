@@ -1,0 +1,38 @@
+{literal}
+<script type="text/javascript">
+    $(function(){
+        $('#user_login_commit').click(function(){
+            var student_number = $("#user_login_form input[name='student_number']").eq(0).val();
+            var password = $("#user_login_form input[name='password']").eq(0).val();
+            $.post(site_url + '/login/', {
+                'student_number': student_number,
+                'password': password
+            }, function(data){
+                eval(data);
+            });
+            return false;
+        });
+    })
+    
+</script>
+{/literal}
+<form id="user_login_form" action="/login/" method="post">
+    <form>
+        <h2>用户登录</h2>
+        <div>
+            <label>
+                学号
+            </label>
+            <input type="text" name="student_number"/>
+        </div>
+        <div>
+            <label>
+                密码
+            </label>
+            <input type="password" name="password"/>
+        </div>
+        <div>
+            <a href="#" id="user_login_commit">登录</a>
+        </div>
+    </form>
+</form>

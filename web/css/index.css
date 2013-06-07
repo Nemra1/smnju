@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+
+#top_nav{
+	padding:5px 0 0 0;
+	width:100%;
+	height:25px;
+	position:fixed;
+	background:url('http://localhost:8090/web/img/top_nav.png') repeat-x;
+	
+	text-align:center;
+	
+	z-index:200;
+}
+
+#top_nav span a{
+	color:white;
+	font-weight:normal;
+}
+
+#top_nav span a:hover{
+	text-decoration:none;
+}
+
+#container{
+	padding-top:60px;
+	width:960px;
+}
+
+#main{
+	/*background-color:#dddddd;
+	background-color:rgba(200,200,200,0.7);*/
+	background:url('http://localhost:8090/web/img/bac_color.png');
+	position:relative;
+	z-index:101;
+	
+	border-radius: 8px;
+	box-shadow:black 0px 0px 20px ;
+	behavior: url(css/ie-css3.htc);/*IE CSS*/
+}
+
+#navg{
+	height:95px;
+	padding:10px 0 0 5px;
+	background-color:white;
+	position:relative;
+	z-index:210;
+	
+	border-radius: 8px;
+	behavior: url(css/ie-css3.htc);/*IE CSS*/
+}
+
+#navg #img_logo img{
+	width:86px;
+	height:86px;
+	display:inline;
+}
+
+#navg #uni_about{
+	display:inline;
+	position:absolute;
+}
+
+#navg #uni_about h1 a{
+	font-size:30px;
+	font-family:楷体;
+}
+
+#navg #uni_about a:hover{
+	text-decoration:none;
+}
+
+#navg #uni_about h1{
+	padding-bottom:5px;
+	margin-bottom:10px;
+	border-bottom:1px solid gray;
+}
+
+#navg #uni_about h2,#navg #uni_about h3{
+	text-align:center;
+}
+
+#navg #uni_about h2 a,#navg #uni_about h3 a{
+	font-size:16px;
+	font-family:楷体;
+}
+
+#navg #uni_about h3 a{
+	font-weight:normal;
+}
+
+
+
+#navg #navgLink{
+	float:right;
+	margin-right:10px;
+	
+	text-align:right;
+}
+
+#navg #navgLink #img_nju_logo{
+	height:70px;
+}
+
+#navg #navgLink li{
+	display:inline;
+}
+
+#navg #navgLink li a{
+	font-size:14px;
+}
+
+#content_container{
+	padding:0px 10px 10px 10px;
+}
+
+#coinfo{
+	margin-top:20px;
+}
+
+#coinfo p{
+	text-align:center;
+}
+
+/*-------------------------------------------------*/
+#content_container .max_width{
+	width:940px;
+}
+
+#content_container .half_width{
+	width:463px;
+}
+
+#content_container .blockright{
+	margin-right:10px;
+}
+
+/*--------------------------------------------------*/
+
+#content_container .mwidget{
+	border:1px solid white;
+	border-radius: 3px;
+	margin-top:10px;
+	
+	float:left;
+}
+
+#content_container .mwidget h2{
+	font-size:14px;
+	font-weight:bolder;
+	padding:3px;
+	
+	background-color:#eeeeee;
+	border-radius: 2px;
+}
+
+#content_container .mwidget .content{
+	padding:5px;
+}
+
+#content_container .mwidget .content li{
+	padding:3px 0 4px 0;
+	border-bottom:1px dotted gray;
+}
+
+#content_container .mwidget .content .date{
+	float:right;
+}

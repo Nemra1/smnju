@@ -1,0 +1,83 @@
+body {
+    background: url('../img2/bg.jpg') repeat-x;
+    font-size: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+	min-height:400px;
+}
+
+#header {
+    padding-top: 15px;
+    background: url('../img2/gate.png') 110px 0px  no-repeat;
+}
+
+#head {
+    height: 130px;
+}
+
+#head #logo_block {
+    float: left;
+}
+
+#head #uni_about {
+    margin-top: 13px;
+    float: left;
+}
+
+#head #uni_logo {
+    float: right;
+	margin-right:50px;
+}
+
+
+
+#nav_list {
+    float: right;
+}
+
+#nav_list ul {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 40px;
+	float:right;
+}
+
+#nav_list li {
+    float: left;
+    margin-left: 30px;
+	padding:5px 8px 5px 8px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	width:90px;
+}
+
+#nav_list li a {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+#nav_list li:hover {
+	background:#B3D881;
+}
+
+#nav #user_status {
+    padding-top: 4px;
+    float: left;
+	margin-right:70px;
+	
+}
+
+
+#content_container{
+	padding:10px;
+}
+
+#footer {
+    margin: 20px auto 0;
+    text-align: center;
+}

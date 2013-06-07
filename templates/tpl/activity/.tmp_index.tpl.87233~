@@ -1,0 +1,69 @@
+<style>
+	#activity_announcement{
+		float:right;
+		width:400px;
+	}
+	
+	#general_activity{
+		float:left;
+		width:200px;
+	}
+</style>
+<div class="fix_height">
+
+
+
+<link href="{$siteurl}/templates/css/cloud.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{$siteurl}/templates/js/cloud.js"></script>
+
+<div  class="widget max_width">
+    <h2 class="water4">常驻活动</h2>
+    <div class="widget_content">
+    	<div id="cloud">
+			<script type="text/javascript">
+			$(function(){
+				function random_color() {
+	            //16进制方式表示颜色0-F
+	            	var arrHex = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D"];
+	                var strHex = "#";
+	                var index;
+	                for(var i = 0; i < 6; i++) {
+	                	//取得0-15之间的随机整数
+	                	index = Math.round(Math.random() * 13);
+	                	strHex += arrHex[index];
+	                }
+	                return strHex;
+	      		}
+	                   		
+          		$("#cloud>a").each(function(){
+         			var color=random_color();
+     				$(this).css('color',color);
+        			});
+				});
+			</script>
+			
+			{foreach from=$activities item=activity}
+        		<a href="{$siteurl}/activity/show/{$activity->id}/">{$activity->name}</a>
+        		<!-- <span class="date">{$activity.create_time}</span> -->
+    		{/foreach}
+    	</div>
+    </div>
+</div>
+
+
+<div  class="widget max_width">
+	<h2 class="water5">最近活动</h2>
+    <div class="widget_content">
+        <ol>
+        	{foreach from=$activity_announcement item=aa}
+        	<li>
+        		 <a href="{$siteurl}/activity/{$aa->id}/">{$aa->ame}</a>
+        	</li>
+    		{/foreach}
+        </ol>
+    </div>
+    
+</div>
+
+
+</div>

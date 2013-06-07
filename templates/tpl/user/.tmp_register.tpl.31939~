@@ -1,0 +1,160 @@
+<script type="text/javascript" src="{$site_url}/templates/js/date_select.js">
+</script>
+{literal}
+<script type="text/javascript">
+    $(function(){
+        $('#user_register_commit').click(function(){
+            if ($('#password').val() != $('#password2').val()) 
+                alert('密码不一致！');
+            
+            var url=$("#user_register_form").eq(0).attr('action');
+            var submit_data = {};
+            $("#user_register_form").find("input[name]:text,textarea,input[name]:password").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).val();
+                if ($.trim(value + '').length > 0) 
+                    submit_data[name] = value;
+            });
+            
+            if ($("#birthday_year").val() != '-1' && $('#birthday_month').val() != '-1' && $('#birthday_day').val() != '-1') {
+                var birthday_str = $("#birthday_year").val() + '-' + $('#birthday_month').val() + '-' + $('#birthday_day').val();
+                submit_data['birthday'] = birthday_str;
+            }
+            $("#user_register_form").find("select[name='gender'],select[name='institute']").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).val();
+                if (value != '-1') 
+                    submit_data[name] = value;
+            });
+            
+            $("#user_register_form :checkbox").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).attr('checked');
+                if (value) 
+                    submit_data[name] = '1';
+                else 
+                    submit_data[name] = '0';
+            });
+            
+            $.post(url, submit_data, function(data){
+            eval(data);
+            });
+            return false;
+        });
+    });
+</script>
+<script>
+    $(function(){
+    
+        var ds = new DateSelector("birthday_year", "birthday_month", "birthday_day", {
+            MaxYear: new Date().getFullYear() - 15,
+            MinYear: new Date().getFullYear() - 70,
+            unselected: 1
+        });
+    })
+</script>
+{/literal}
+<form id="user_register_form" action="{$site_url}/register/" method="post" enctype="multipart/form-data">
+    <div class="require">
+        <h3>必填</h3>
+        <div>
+            <label>
+                学号
+            </label>
+            <input name="student_number" type="text" />
+            <label>
+                （不公开）
+            </label>
+        </div>
+        <div>
+            <label>
+                昵称
+            </label>
+            <input name="alias_name" type="text"/>
+        </div>
+        <div>
+            <label>
+                姓名
+            </label>
+            <input name="name" type="text" /><input name="name_public" type="checkbox" checked/>
+            <label>
+                公开
+            </label>
+        </div>
+        <div>
+            <label>
+                身份证
+            </label>
+            <input name="id_card_number" type="text" />
+            <label>
+                （不公开）
+            </label>
+        </div>
+        <div>
+            <label>
+                密码
+            </label>
+            <input id="password" name="password" type="password" />
+        </div>
+        <div>
+            <label>
+                再次输入密码
+            </label>
+            <input id="password2" type="password" />
+        </div>
+    </div>
+    <div class="selection">
+        <h3>选填</h3>
+        <div>
+            <label>
+                院系
+            </label>
+            <select name="institute">
+                {html_options values=$_SGLOBAL.helper.html_options.institute.values selected='-1' output=$_SGLOBAL.helper.html_options.institute.names}
+            </select>
+        </div>
+        <div>
+            <label>
+                性别
+            </label>
+            <select name="gender">
+                <option value="-1" selected>未指定</option>
+                <option value="0">男</option>
+                <option value="1">女</option>
+            </select>
+        </div>
+        <div>
+            <label>
+                手机
+            </label>
+            <input name="telnum" type="text" />
+        </div>
+        <div>
+            <label>
+                个人简介
+            </label>
+            <textarea name="description">
+            </textarea>
+        </div>
+        <div>
+            <label>
+                邮箱
+            </label>
+            <input name="email" type="text" />
+        </div>
+        <div>
+            <label>
+                生日
+            </label>
+            <select id="birthday_year">
+            </select>
+            <select id="birthday_month">
+            </select>
+            <select id="birthday_day">
+            </select>
+        </div>
+        <div>
+            <a id="user_register_commit" href="#">提交</a>
+        </div>
+    </div>
+</form>

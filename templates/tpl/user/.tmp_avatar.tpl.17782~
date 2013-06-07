@@ -1,0 +1,45 @@
+{include file="user/header.tpl"}
+{literal}
+<script type="text/javascript">
+    $(function(){
+        function clip_avatar(responseText, statusText){
+            if (responseText == '-1') 
+                alert('图片上传失败');
+            else {
+                $('#change_avatar_form').hide();
+                $('#clip_avatar_form').show();
+                var url = responseText;
+                $('#show_avatar').attr('src', url);
+            }
+        }
+        $('#change_avatar_commit').click(function(){
+            $("#change_avatar_form").ajaxSubmit({
+                success: clip_avatar,
+            });
+        });
+        
+    });
+</script>
+{/literal}
+<style>
+    #clip_avatar_form {
+        display: none;
+    }
+</style>
+<form id="change_avatar_form" action="{$site_url}/user/avatar/" method="post" enctype="multipart/form-data">
+    <div>
+        <label>
+            更改头像
+        </label>
+        <input type="file" name="avatar" />
+    </div>
+    <div>
+         <a href="#" id="change_avatar_commit">提交</a>
+    </div>
+</form>
+<form id="clip_avatar_form" method="post">
+	<h2>请裁剪图片</h2>
+    <div>
+        <img id="show_avatar" />
+    </div><a href="#" id="clip_avatar_commit">提交</a>
+</form>

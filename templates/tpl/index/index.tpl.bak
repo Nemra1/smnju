@@ -1,0 +1,198 @@
+<script type="text/javascript" src="templates/swf/swfobject.js"></script>
+<script type="text/javascript">
+	// For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. 
+	var swfVersionStr = "10.2.0";
+	// To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+	var xiSwfUrlStr = "playerProductInstall.swf";
+	var flashvars = {};
+	var params = {};
+	params.quality = "high";
+	params.bgcolor = "#ffffff";
+	params.allowscriptaccess = "sameDomain";
+	params.allowfullscreen = "true";
+	var attributes = {};
+	attributes.id = "PicWall";
+	attributes.name = "PicWall";
+	attributes.align = "middle";
+	swfobject.embedSWF(
+	    "templates/swf/picWall/PicWall.swf?path=%2Fflash%2Fsrc.php", "flashContent", 
+	    "600", "400", 
+	    swfVersionStr, xiSwfUrlStr, 
+	    flashvars, params, attributes);
+	// JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+	swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+</script>
+
+
+
+
+<link href="{$siteurl}/templates/css/index.css" rel="stylesheet" type="text/css" />
+<div id="personal_show_widget" class="widget max_width">
+    <h2 class="water1">个人风采<a class="more" href="{$siteurl}/user/">更多</a></h2>
+    <div class="widget_content">
+        <div class="center">
+        
+			<div id="flashContent">
+				<p>
+					To view this page ensure that Adobe Flash Player version 
+					10.2.0 or greater is installed. 
+				</p>
+				<script type="text/javascript"> 
+					var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://"); 
+					document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" 
+					+ pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" ); 
+				</script> 
+			</div>
+        
+			<noscript>
+				<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="400" id="PicWall">
+					<param name="movie" value="templates/swf/picWall/PicWall.swf?path=%2Fflash%2Fsrc.php" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="allowScriptAccess" value="sameDomain" />
+					<param name="allowFullScreen" value="true" />
+					<!--[if !IE]>-->
+					<object type="application/x-shockwave-flash" data="templates/swf/picWall/PicWall.swf?path=%2Fflash%2Fsrc.php" width="600" height="400">
+						<param name="quality" value="high" />
+						<param name="bgcolor" value="#ffffff" />
+						<param name="allowScriptAccess" value="sameDomain" />
+						<param name="allowFullScreen" value="true" />
+					<!--<![endif]-->
+					<!--[if gte IE 6]>-->
+						<p> 
+							Either scripts and active content are not permitted to run or Adobe Flash Player version
+							10.2.0 or greater is not installed.
+						</p>
+					<!--<![endif]-->
+						<a href="http://www.adobe.com/go/getflashplayer">
+							<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+						</a>
+					<!--[if !IE]>-->
+					</object>
+					<!--<![endif]-->
+				</object>
+			</noscript>
+        
+        </div>
+    </div>
+</div>
+<div id="announcement_widget" class="widget fix_height">
+    <h2 class="water2">公告<a class="more" href="{$siteurl}/public/">更多</a></h2>
+    <div class="widget_content ">
+        <ol>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+        </ol>
+    </div>
+    <div class="widget_content ">
+        <ol>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+            <li>
+                <a>hahaha</a>
+                <span class="date">2011-11-11</span>
+            </li>
+        </ol>
+    </div>
+</div>
+<!-- 校园活动 -->
+<div class="widget">
+    <h2 class="water3">校园活动<a class="more" href="{$siteurl}/activity_announcement/">更多</a></h2>
+    <div class="widget_content">
+        <ol>
+            <li>
+                <a href="#">hahaha</a>
+                <span class="date">2011-11-11</span>
+                <p>
+                    a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+                </p>
+            </li>
+            <li>
+                <a href="#">hahaha</a>
+                <span class="date">2011-11-11</span>
+                <p>
+                    a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+                </p>
+            </li>
+            <li>
+                <a href="#">hahaha</a>
+                <span class="date">2011-11-11</span>
+                <p>
+                    a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+                </p>
+            </li>
+            <li>
+                <a href="#">hahaha</a>
+                <span class="date">2011-11-11</span>
+                <p>
+                    a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+                </p>
+            </li>
+            <li>
+                <a href="#">hahaha</a>
+                <span class="date">2011-11-11</span>
+                <p>
+                    a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+                </p>
+            </li>
+        </ol>
+    </div>
+</div>
+<!-- 有奖征文 -->
+<div class="widget ">
+    <h2 class="water4">有奖征文<a class="more" href="{$siteurl}/prize_article">更多 </a></h2>
+    <div class="widget_content">
+        <ol>
+            <li>
+                <a href="#">资本论的矛盾思想</a>
+                -
+                <a href="#">毛子</a>
+                <span>[0/100]</span>
+                <span class="date">2011-11-11</span>
+                <p>
+                    a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
+                </p>
+            </li>
+        </ol>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+{include file="user/header.tpl"}
+<div class="content_center max_width widget center">
+{literal}
+<script type="text/javascript">
+    $(function(){
+        $('#user_privacy_commit').click(function(){
+            var url = $("#user_privacy_form").eq(0).attr('action');
+            var submit_data = {};
+            $("#user_privacy_form :checkbox").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).attr('checked');
+                if (value) 
+                    submit_data[name] = '1';
+                else 
+                    submit_data[name] = '0';
+            });
+            
+            $.post(url, submit_data, function(data){
+                var r=get_ajax_result(data);
+				if(r['code']==0){
+					show_message_box('修改成功');
+				}else{
+					show_message_box(r['info']);
+				}
+            });
+            return false;
+        });
+    });
+</script>
+{/literal}
+<form id="user_privacy_form" action="{$siteurl}/user/privacy/" method="post">
+<table class="table , center">
+	<tr>
+		<th>公开姓名</th>
+		<td><input name="name" type="checkbox" {if $user_privacy->name}checked{/if} /></td>
+	</tr>
+	<tr>
+		<th>公开院系</th>
+		<td><input type="checkbox" name="institute" {if $user_privacy->institute}checked{/if} /></td>
+	</tr>
+	<tr>
+		<th>公开性别</th>
+		<td><input name="gender" type="checkbox" {if $user_privacy->gender}checked{/if} /></td>
+	</tr>
+	<tr>
+		<th>公开手机</th>
+		<td><input name="telnum" type="checkbox" {if $user_privacy->telnum}checked{/if} /></td>
+	</tr>
+	<tr>
+		<th>公开邮箱</th>
+		<td><input name="email" type="checkbox" {if $user_privacy->email}checked{/if} /></td>
+	</tr>
+	<tr>
+		<th>公开生日</th>
+		<td><input name="birthday" type="checkbox" {if $user_privacy->birthday}checked{/if} /></td>
+	</tr>
+	<tr>
+		<td colspan="2"><a href="#" class="submit" id="user_privacy_commit">提交</a></td>
+	</tr>
+</table>
+</form>
+</div>

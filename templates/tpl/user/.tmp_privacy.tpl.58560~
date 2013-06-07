@@ -1,0 +1,42 @@
+{include file="user/header.tpl"}
+<form id="user_privacy_form" action="/user/privacy/" method="post">
+        <div>
+            <label>
+                公开姓名
+            </label>
+            <input name="name" type="checkbox"  {if $user_privacy.name}checked{/if} />
+        </div>
+     
+        <div>
+        	<label>公开院系</label>
+           
+			<input type="checkbox" name="institute" {if $user_privacy.institute}checked{/if} />
+        </div>
+        <div>
+            <label>
+                公开性别
+            </label>
+			<input name="gender" type="checkbox" {if $user_privacy.gender}checked{/if} />
+        </div>
+        <div>
+            <label>
+                公开手机
+            </label>
+			<input name="telnum" type="checkbox" {if $user_privacy.telnum}checked{/if} />
+        </div>
+        <div>
+            <label>
+                公开邮箱
+            </label>
+			<input name="email" type="checkbox" {if $user_privacy.email}checked{/if} />
+        </div>
+        <div>
+            <label>
+                公开生日
+            </label>
+			<input name="birthday" type="checkbox" {if $user_privacy.birthday}checked{/if} />
+        </div>
+        <div>
+        	<input type="submit" value="提交" />
+        </div>
+</form>

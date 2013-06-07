@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        {if $refresh}
+        <meta http-equiv="refresh" content="3; url={$site_url}{$refresh_url}">
+        {/if}<title>思目首页</title>
+        <link href="{$site_url}/templates/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="{$site_url}/templates/css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="{$site_url}/templates/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="{$site_url}/templates/css/global.css" rel="stylesheet" type="text/css" />
+        <!--[if lt IE 7]>
+            <link rel="stylesheet" href="{$site_url}/templates/css/lt-ie7.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" href="{$site_url}/templates/css/lte-ie7.css" type="text/css" media="screen" />
+        <![endif]--><script type="text/javascript" src="/templates/js/jquery-1.5.2.min.js" />
+        </script>
+        
+        <script type="text/javascript" src="{$site_url}/templates/ckeditor/ckeditor.js">
+        </script>
+        <script type="text/javascript" src="{$site_url}/templates/js/global.js">
+        </script>
+        <script type="text/javascript" src="{$site_url}/templates/swf/swfobject.js">
+        </script>
+    </head>
+    <body id="{$page_id}_page">
+        <div id="container" class="fix_height">
+            <div id="banner_head">
+                <div id="user_status">
+                    {if $user_id}
+                    <p>
+                        天天向上，<a href="{$site_url}/user/show">{$user_name}</a>
+                        <a href="{$site_url}/logout/">登出</a>
+                    </p>
+                    {else}
+                    <p>
+                        <a href="{$site_url}/login/">登录</a>
+                        <a href="{$site_url}/register/">注册</a>
+                    </p>
+                    {/if}
+                </div>
+            </div>
+            <div id="guide">
+                <ul class="fix_height">
+                    <li>
+                        <a href="{$site_url}/">首页</a>
+                    </li>
+                    <li>
+                        <a href="{$site_url}/user/">个人主页</a>
+                    </li>
+                    <li>
+                        <a href="{$site_url}/discussion">主题讨论区</a>
+                    </li>
+                    <li>
+                        <a href="{$site_url}/activity_announcement/">校园活动总汇</a>
+                    </li>
+                    <li>
+                        <a href="{$site_url}/simu/">思目基金</a>
+                    </li>
+                    <li>
+                        <a href="{$site_url}/public/">公示</a>
+                    </li>
+                    <li>
+                        <a href="{$site_url}/complaint">问题与投诉</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="main_area">
+                <div class="fix_height" id="header">
+                </div>
+                <div id="notice">
+                	{if $_SGLOBAL.notice}
+                    <p>
+                        {$_SGLOBAL.notice}
+                    </p>
+					{/if}
+                </div>
+                <div id="content">
+                    {include file=$content_tpl}
+                </div>
+            </div>
+        </div>
+		<script type="text/javascript">
+			var site_url="{$site_url}";
+		</script>
+		<script type="text/javascript" src="{$site_url}/templates/js/jquery.form.js"></script>
+    </body>
+</html>

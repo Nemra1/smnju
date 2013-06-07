@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+@CHARSET "UTF-8";
+
+body{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background:#838640 url(../img/main_bg.png) no-repeat top center;
+}
+
+/*公共字体*/
+p,a,li,span,label,th,td{
+	font-size:13px;
+	color:#111111;
+	text-decoration:none;
+	padding:0;
+	margin:0;
+}
+
+/*共享部分*/
+input,textarea{
+	outline:none;
+}
+
+/*导航*/
+#nav{
+	margin-top:200px;
+}
+
+#nav ul{
+	padding:0;
+}
+
+#nav li{
+	list-style:none;
+	text-align:right;
+	padding:5px 10px 5px 0;
+	margin:0 0 0 30px;
+}
+
+#nav li:hover{
+	border-radius: 5px 0 0 5px;
+	background-color:rgba(255,255,255,0.10);
+}
+
+#nav li a{
+	font-family:"楷体";
+	font-size:20px;
+	font-weight:bolder;
+	color:white;
+}
+
+/*界面背景布局*/
+#tb_center{
+	margin:0 auto 0 auto;
+}
+
+#p_left_top{
+	height:646px;
+	width:177px;
+	background:url(../img/left_panel_top.png) no-repeat top center;
+}
+
+#p_left_bottom{
+	width:177px;
+	background:url(../img/left_panel_bottom.png) repeat-y top center;
+}
+
+#p_right{
+	width:684px;
+	background:url(../img/right_panel.png) repeat-y top center;
+}
+
+#p_bottom{
+	height:18px;
+	width:861px;
+	background:url(../img/bottom_panel.png) no-repeat top center;
+}
+
+/*容器*/
+#content{
+	width:650px;
+	margin:10px auto 0 auto;
+}

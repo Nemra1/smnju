@@ -1,0 +1,21 @@
+.fix_height:after {
+    content: ".";
+    display: block;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    height: 0;
+    visibility: hidden;
+}
+
+
+a{
+	text-decoration:none;
+	color:#2e7915;
+	font-weight:bold;
+}
+
+
+.clear_float{
+	clear:both;
+}

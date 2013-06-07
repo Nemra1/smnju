@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        {if $refresh}
+        <meta http-equiv="refresh" content="3; url={$site_url}{$refresh_url}">
+        {/if}<title>思目首页</title>
+        <link href="{$site_url}/templates/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="{$site_url}/templates/css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="{$site_url}/templates/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="{$site_url}/templates/css/page.css" rel="stylesheet" type="text/css" />
+        <!--[if lt IE 7]>
+            <link rel="stylesheet" href="{$site_url}/templates/css/lt-ie7.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" href="{$site_url}/templates/css/lte-ie7.css" type="text/css" media="screen" />
+        <![endif]--><script type="text/javascript" src="/templates/js/jquery-1.5.2.min.js" />
+        </script>
+    </head>
+    <body id="{$page_id}_page">
+        <table id="tb_center" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="p_left_top" valign="top">
+                    <div id="nav">
+                        <ul>
+                            <li>
+                                <a>首页</a>
+                            </li>
+                            <li>
+                                <a>个人主页</a>
+                            </li>
+                            <li>
+                                <a>主题讨论区</a>
+                            </li>
+                            <li>
+                                <a>校园活动总汇</a>
+                            </li>
+                            <li>
+                                <a>思目基金</a>
+                            </li>
+                            <li>
+                                <a>公示</a>
+                            </li>
+                            <li>
+                                <a>问题与投诉</a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+                <td id="p_right" rowspan="2" valign="top">
+                    <div id="content">
+                        <div class="widget , max_width">
+                            <h2 class="water1">个人风采</h2>
+                            <div class="widget_content">
+                                <div class="center" style="width:600px; height:400px; background-color:#aaaaaa; color:#fff;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget , half_width">
+                            <h2 class="water2 , water_no">公告<a href="http://www.baidu.com">更多</a></h2>
+                            <div class="widget_content">
+                                <ol>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="widget , half_width">
+                            <h2 class="water3 , water_no">最新动态<a href="http://www.baidu.com">更多</a></h2>
+                            <div class="widget_content">
+                                <ol>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                    <li>
+                                        <a>hahaha</a>
+                                        <span class="right">2011-11-11</span>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="p_bottom">
+                </td>
+            </tr>
+        </table>
+      
+        <script type="text/javascript">
+            var site_url = "{$site_url}";
+        </script>
+        <script type="text/javascript" src="{$site_url}/templates/js/global.js">
+        </script>
+        <script type="text/javascript" src="{$site_url}/templates/swf/swfobject.js">
+        </script>
+    </body>
+</html>

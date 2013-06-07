@@ -1,0 +1,24 @@
+/*show message*/
+#content_container{
+	/*padding-left:60px;*/
+}
+
+#message_block{
+	margin-bottom:20px;
+	padding-left:180px;
+	background:url('../img2/sorry.jpg') no-repeat;
+	height:130px;
+}
+
+.pag_link{
+	font-weight:border;
+}
+
+.current_link.pag_link{
+	font-weight:normal;
+}
+
+.catlog_pagination ul li{
+	float:left;
+	margin-right:5px;
+}

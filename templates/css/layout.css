@@ -1,0 +1,97 @@
+body {
+    background: #838640 url(../img/main_bg.png) no-repeat top center;
+    font-family: "宋体" sans-serif;
+    font-size: 14px;
+    color: #111111;
+}
+
+#container {
+    width: 861px;
+    margin: 0px auto;
+}
+
+/*Banner head*/
+#banner_header {
+    height: 30px;
+    background: url('../img/banner_head.jpg') #1b4100;
+    color: #fff;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+#user_status {
+    float: right;
+    font-size: 13px;
+    width: 150px;
+    text-align: right;
+    font-family: "宋体";
+}
+
+#user_status a {
+    color: #fff;
+}
+
+#nav {
+    width: 177px;
+    float: left;
+    background: url(../img/left_panel_top.png) no-repeat top center;
+    padding-top: 200px;
+}
+
+#nav > ul {
+    height: 446px;
+}
+
+#nav li {
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 19px;
+    padding-right: 10px;
+}
+
+#nav li:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+#nav li a {
+    font-family: "黑体";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    text-decoration: none;
+}
+
+#nav_bottom {
+    background: url(../img/left_panel_bottom.png) repeat-y top center;
+}
+
+#message {
+    color: red;
+}
+
+#content {
+    width: 654px;
+    background: url(../img/right_panel.png) repeat-y top left;
+    float: left;
+    min-height: 900px;
+    padding: 15px;
+}
+
+#footer {
+    height: 18px;
+    width: 861px;
+    background: url(../img/bottom_panel.png) no-repeat top center;
+}
+
+#message_box {
+    display: none;
+}
+
+#message_box{
+	text-align:center;
+}
+

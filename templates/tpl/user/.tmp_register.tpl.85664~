@@ -1,0 +1,239 @@
+<script type="text/javascript" src="{$siteurl}/templates/js/date_select.js">
+</script>
+{literal}
+<script type="text/javascript">
+    $(function(){
+        $('#user_register_commit').click(function(){
+            if (can_click_ajax == 0) {
+                return false;
+            }
+            
+            var eles = $("#user_register_form").find(".require").get();
+            for (var i = 0; i < eles.length; i++) {
+                var value = eles[i].value;
+                if (value.length == 0) {
+                    show_form_message_box('请将内容填写完整');
+                    return false;
+                }
+            }
+            
+            if ($('#password').val() != $('#password2').val()) 
+               show_form_message_box('密码不一致！');
+            
+            var url = $("#user_register_form").eq(0).attr('action');
+            var submit_data = {};
+            $("#user_register_form").find("input[name]:text,textarea,input[name]:password").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).val();
+                if ($.trim(value + '').length > 0) 
+                    submit_data[name] = value;
+            });
+            
+            if ($("#birthday_year").val() != '-1' && $('#birthday_month').val() != '-1' && $('#birthday_day').val() != '-1') {
+                var birthday_str = $("#birthday_year").val() + '-' + $('#birthday_month').val() + '-' + $('#birthday_day').val();
+                submit_data['birthday'] = birthday_str;
+            }
+            
+            $("#user_register_form").find("select[name='gender'],select[name='institute']").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).val();
+                if (value != '-1') 
+                    submit_data[name] = value;
+            });
+            
+            $("#user_register_form :checkbox").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).attr('checked');
+                if (value) 
+                    submit_data[name] = '1';
+                else 
+                    submit_data[name] = '0';
+            });
+            
+            $.post(url, submit_data,function(data){
+				var r=get_ajax_result(data);
+				if(r['code']==0){
+					show_message_box('注册成功，进入下一步。');
+					delay_redirect("/user/avatar_register");
+				}else{
+					show_message_box(r['info']);
+				}
+			});
+            
+            show_wait_message_box('提交中……');
+            
+            return false;
+        });
+    });
+</script>
+<script>
+    $(function(){
+    
+        var ds = new DateSelector("birthday_year", "birthday_month", "birthday_day", {
+            MaxYear: new Date().getFullYear() - 15,
+            MinYear: new Date().getFullYear() - 70,
+            unselected: 1
+        });
+    })
+</script>
+{/literal}
+<form id="user_register_form" action="{$siteurl}/register/" method="post">
+    <div class="widget , max_width">
+        <h2 class="water4">用户注册</h2>
+        <div class="widget_content">
+            <table class="table , center">
+                <tr>
+                    <td>
+                    </td>
+                    <th>
+                        <b class="red">必填项</b>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        学&nbsp;&nbsp;&nbsp;&nbsp;号
+                    </th>
+                    <td>
+                        <input class="require" name="student_number" type="text" />
+                    </td>
+                    <td>
+                        (不公开)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        姓&nbsp;&nbsp;&nbsp;&nbsp;名
+                    </th>
+                    <td>
+                        <input class="require" name="name" type="text" />
+                    </td>
+                    <td>
+                        <input name="name_public" type="checkbox" checked/>
+                        <label>
+                            公开
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        昵&nbsp;&nbsp;&nbsp;&nbsp;称
+                    </th>
+                    <td>
+                        <input class="require" name="alias_name" type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        身&nbsp;份&nbsp;证
+                    </th>
+                    <td>
+                        <input class="require" name="id_card_number" type="text" />
+                    </td>
+                    <td>
+                        (不公开)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        密&nbsp;&nbsp;&nbsp;&nbsp;码
+                    </th>
+                    <td>
+                        <input class="require" id="password" name="password" type="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        确认密码
+                    </th>
+                    <td>
+                        <input class="require" id="password2" type="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        &nbsp;
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <th>
+                        <b class="red">选填项</b>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        院&nbsp;&nbsp;&nbsp;&nbsp;系
+                    </th>
+                    <td>
+                        <select name="institute" class="nowidth">
+                            {html_options values=$_SGLOBAL.helper.html_options.institute.values selected='-1' output=$_SGLOBAL.helper.html_options.institute.names}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        性&nbsp;&nbsp;&nbsp;&nbsp;别
+                    </th>
+                    <td>
+                        <select name="gender" class="nowidth">
+                            <option value="-1" selected>未指定</option>
+                            <option value="1">男</option>
+                            <option value="0">女</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        手&nbsp;&nbsp;&nbsp;&nbsp;机
+                    </th>
+                    <td>
+                        <input name="telnum" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        个人简介
+                    </th>
+                    <td>
+                        <textarea name="description">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        邮&nbsp;&nbsp;&nbsp;&nbsp;箱
+                    </th>
+                    <td>
+                        <input name="email" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        生&nbsp;&nbsp;&nbsp;&nbsp;日
+                    </th>
+                    <td>
+                        <select id="birthday_year">
+                        </select>
+                        <select id="birthday_month">
+                        </select>
+                        <select id="birthday_day">
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        &nbsp;
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                    </th>
+                    <td class="content_center">
+                        <a id="user_register_commit" class="submit" href="#">提交</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</form>

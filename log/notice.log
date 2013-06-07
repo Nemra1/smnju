@@ -1,0 +1,575 @@
+[25-Nov-2011 14:49:00]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:49:00] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template "E:\workspace\www\smnju\templates/tpl\layout.tpl"  on line 49 "&lt;li&gt;&lt;a href=&quot;{siteurl}/topic/&quot;&gt;主题讨论区&lt;/a&gt;&lt;/li&gt;" unknown tag "siteurl"' in E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php:431
+Stack trace:
+#0 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php(253): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unknown tag "si...', 49)
+#1 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templateparser.php(2322): Smarty_Internal_TemplateCompilerBase->compileTag('siteurl', Array)
+#2 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templateparser.php(2812): Smarty_Internal_Templateparser->yy_r36()
+#3 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templateparser.php(2912): Smarty_Internal_Templateparser->yy_reduce(36)
+#4 E:\workspace\www\smnju\smarty\libs\sysplugi in E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php on line 431
+[25-Nov-2011 14:49:27]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:49:27] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template "E:\workspace\www\smnju\templates/tpl\layout.tpl"  on line 51 "&lt;li&gt;&lt;a href=&quot;{$siteurl/simu/}&quot;&gt;思目基金&lt;/a&gt;&lt;/li&gt;"  - Unexpected "}"' in E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php:431
+Stack trace:
+#0 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templateparser.php(2855): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templateparser.php(2920): Smarty_Internal_Templateparser->yy_syntax_error(16, '}')
+#2 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_smartytemplatecompiler.php(51): Smarty_Internal_Templateparser->doParse(16, '}')
+#3 E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php(82): Smarty_Internal_SmartyTemplateCompiler->doCompile('<!DOCTYPE html ...')
+#4 E:\workspace\www\smnju\smarty\libs\sysplugins in E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php on line 431
+[25-Nov-2011 14:49:48]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:50:26]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:50:42]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:51:19]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:51:24]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:52:25]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:52:26]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:52:28]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:52:29]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:52:30] PHP Fatal error:  Call to undefined method Model::init() in E:\workspace\www\smnju\source\model\topic.class.php on line 20
+[25-Nov-2011 14:52:30] PHP Stack trace:
+[25-Nov-2011 14:52:30] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 14:52:30] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 14:52:30] PHP   3. TopicController->index() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 14:52:30] PHP   4. __my_autoload() E:\workspace\www\smnju\source\controller\controller.class.php:0
+[25-Nov-2011 14:52:30] PHP   5. include_once() E:\workspace\www\smnju\source\lib\function_common.php:439
+[25-Nov-2011 14:52:30] PHP   6. Topic::init() E:\workspace\www\smnju\source\model\topic.class.php:39
+[25-Nov-2011 14:52:32]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:52:57]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 14:52:59]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:00:47]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:00:48] PHP Notice:  Undefined index: user_id in E:\workspace\www\smnju\source\model\model_adapter.class.php on line 25
+[25-Nov-2011 15:00:48] PHP Stack trace:
+[25-Nov-2011 15:00:48] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:00:48] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:00:48] PHP   3. TopicController->index() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:00:48] PHP   4. __my_autoload() E:\workspace\www\smnju\source\controller\controller.class.php:0
+[25-Nov-2011 15:00:48] PHP   5. include_once() E:\workspace\www\smnju\source\lib\function_common.php:439
+[25-Nov-2011 15:00:48] PHP   6. __my_autoload() E:\workspace\www\smnju\source\lib\function_common.php:0
+[25-Nov-2011 15:00:48] PHP   7. include_once() E:\workspace\www\smnju\source\lib\function_common.php:439
+[25-Nov-2011 15:01:36]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:01:47]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:01:47] PHP Notice:  Undefined index: HTTP_REQUEST_TYPE in E:\workspace\www\smnju\source\lib\function_common.php on line 524
+[25-Nov-2011 15:01:47] PHP Stack trace:
+[25-Nov-2011 15:01:47] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:01:47] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:01:47] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[25-Nov-2011 15:01:47] PHP   4. in_ajax() E:\workspace\www\smnju\source\controller\controller.class.php:21
+[25-Nov-2011 15:01:47] PHP Notice:  Undefined index: HTTP_REFERER in E:\workspace\www\smnju\source\lib\function_common.php on line 123
+[25-Nov-2011 15:01:47] PHP Stack trace:
+[25-Nov-2011 15:01:47] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:01:47] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:01:47] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[25-Nov-2011 15:01:47] PHP   4. show_message() E:\workspace\www\smnju\source\controller\controller.class.php:24
+[25-Nov-2011 15:01:55]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:01:59]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:04:08]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:11:01]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:12:07]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:12:31]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:12:39]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:12:45]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:22:47]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:22:58]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:22:58]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:23:02]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:23:11]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:27:17]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:27:17] PHP Notice:  Undefined index: HTTP_REQUEST_TYPE in E:\workspace\www\smnju\source\lib\function_common.php on line 524
+[25-Nov-2011 15:27:17] PHP Stack trace:
+[25-Nov-2011 15:27:17] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:27:17] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:27:17] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[25-Nov-2011 15:27:17] PHP   4. in_ajax() E:\workspace\www\smnju\source\controller\controller.class.php:42
+[25-Nov-2011 15:27:17] PHP Notice:  Undefined index: HTTP_REFERER in E:\workspace\www\smnju\source\lib\function_common.php on line 123
+[25-Nov-2011 15:27:17] PHP Stack trace:
+[25-Nov-2011 15:27:17] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:27:17] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:27:17] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[25-Nov-2011 15:27:17] PHP   4. show_message() E:\workspace\www\smnju\source\controller\controller.class.php:45
+[25-Nov-2011 15:27:23]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:27:24]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:27:29]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:27:36]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:28:26]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:28:26] PHP Notice:  Undefined index: HTTP_REQUEST_TYPE in E:\workspace\www\smnju\source\lib\function_common.php on line 524
+[25-Nov-2011 15:28:26] PHP Stack trace:
+[25-Nov-2011 15:28:26] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:28:26] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:28:26] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[25-Nov-2011 15:28:26] PHP   4. in_ajax() E:\workspace\www\smnju\source\controller\controller.class.php:42
+[25-Nov-2011 15:28:26] PHP Notice:  Undefined index: HTTP_REFERER in E:\workspace\www\smnju\source\lib\function_common.php on line 123
+[25-Nov-2011 15:28:26] PHP Stack trace:
+[25-Nov-2011 15:28:26] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:28:26] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:28:26] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[25-Nov-2011 15:28:26] PHP   4. show_message() E:\workspace\www\smnju\source\controller\controller.class.php:45
+[25-Nov-2011 15:28:32]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:28:32]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:28:37]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:28:45]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:28:46]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:29:29]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:33:17]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:33:25]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:33:25] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:33:25] PHP Stack trace:
+[25-Nov-2011 15:33:25] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:33:25] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:33:25] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:33:25] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:33:25] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:33:25] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:33:25] PHP Stack trace:
+[25-Nov-2011 15:33:25] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:33:25] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:33:25] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:33:25] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:33:25] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:37:28]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:37:29] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:37:29] PHP Stack trace:
+[25-Nov-2011 15:37:29] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:37:29] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:37:29] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:37:29] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:37:29] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:37:29] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:37:29] PHP Stack trace:
+[25-Nov-2011 15:37:29] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:37:29] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:37:29] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:37:29] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:37:29] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:40:53]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:40:55] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:40:55] PHP Stack trace:
+[25-Nov-2011 15:40:55] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:40:55] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:40:55] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:40:55] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:40:55] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:40:55] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:40:55] PHP Stack trace:
+[25-Nov-2011 15:40:55] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:40:55] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:40:55] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:40:55] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:40:55] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:40:59]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:40:59] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:40:59] PHP Stack trace:
+[25-Nov-2011 15:40:59] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:40:59] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:40:59] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:40:59] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:40:59] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:40:59] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:40:59] PHP Stack trace:
+[25-Nov-2011 15:40:59] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:40:59] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:40:59] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:40:59] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:40:59] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:41:02]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:04]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:05] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:41:05] PHP Stack trace:
+[25-Nov-2011 15:41:05] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:05] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:05] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:05] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:41:05] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:41:05] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:41:05] PHP Stack trace:
+[25-Nov-2011 15:41:05] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:05] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:05] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:05] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:41:05] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:41:09]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:14]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:14] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:41:14] PHP Stack trace:
+[25-Nov-2011 15:41:14] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:14] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:14] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:14] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:41:14] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:41:14] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:41:14] PHP Stack trace:
+[25-Nov-2011 15:41:14] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:14] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:14] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:14] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:41:14] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:41:16]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:17] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:41:17] PHP Stack trace:
+[25-Nov-2011 15:41:17] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:17] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:17] PHP   3. UserController->admin_single() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:17] PHP   4. User->translate() E:\workspace\www\smnju\source\controller\user_controller.class.php:263
+[25-Nov-2011 15:41:17] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:41:17] PHP Stack trace:
+[25-Nov-2011 15:41:17] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:17] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:17] PHP   3. UserController->admin_single() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:17] PHP   4. User->translate() E:\workspace\www\smnju\source\controller\user_controller.class.php:263
+[25-Nov-2011 15:41:19]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:20] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:41:20] PHP Stack trace:
+[25-Nov-2011 15:41:20] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:20] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:20] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:20] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:41:20] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:41:20] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:41:20] PHP Stack trace:
+[25-Nov-2011 15:41:20] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:20] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:20] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:41:20] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:41:20] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:41:23]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:57]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:41:58] PHP Notice:  Undefined index: delete in E:\workspace\www\smnju\source\controller\user_controller.class.php on line 240
+[25-Nov-2011 15:41:58] PHP Stack trace:
+[25-Nov-2011 15:41:58] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:41:58] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:41:58] PHP   3. UserController->admin_single() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:42:00]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:42:10]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:42:11] PHP Notice:  Undefined index: restore in E:\workspace\www\smnju\source\controller\user_controller.class.php on line 242
+[25-Nov-2011 15:42:11] PHP Stack trace:
+[25-Nov-2011 15:42:11] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:42:11] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:42:11] PHP   3. UserController->admin_single() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:42:14]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:43:29]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:43:29] PHP Notice:  Undefined index: delete in E:\workspace\www\smnju\source\controller\user_controller.class.php on line 240
+[25-Nov-2011 15:43:29] PHP Stack trace:
+[25-Nov-2011 15:43:29] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:43:29] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:43:29] PHP   3. UserController->admin_single() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:43:32]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:43:48]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:43:51]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:43:52] PHP Notice:  Undefined index: restore in E:\workspace\www\smnju\source\controller\user_controller.class.php on line 242
+[25-Nov-2011 15:43:52] PHP Stack trace:
+[25-Nov-2011 15:43:52] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:43:52] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:43:52] PHP   3. UserController->admin_single() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:43:52]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:43:56]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:43:56] PHP Notice:  Undefined index: delete in E:\workspace\www\smnju\source\controller\user_controller.class.php on line 240
+[25-Nov-2011 15:43:56] PHP Stack trace:
+[25-Nov-2011 15:43:56] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:43:56] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:43:56] PHP   3. UserController->admin_single() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:43:57]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:30]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:36]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:36] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 67
+[25-Nov-2011 15:44:36] PHP Stack trace:
+[25-Nov-2011 15:44:36] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:44:36] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:44:36] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:44:36] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:44:36] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:44:36] PHP Notice:  Undefined index: -1 in E:\workspace\www\smnju\source\model\user.class.php on line 69
+[25-Nov-2011 15:44:36] PHP Stack trace:
+[25-Nov-2011 15:44:36] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 15:44:36] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 15:44:36] PHP   3. UserController->admin() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 15:44:36] PHP   4. Model::stranslate() E:\workspace\www\smnju\source\controller\user_controller.class.php:278
+[25-Nov-2011 15:44:36] PHP   5. User->translate() E:\workspace\www\smnju\source\model\model.class.php:175
+[25-Nov-2011 15:44:37]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:40]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:46]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:51]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:54]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 15:44:57]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 16:06:34]	***********************************************
+	E:\workspace\www\smnju\common.php	35
+[25-Nov-2011 16:07:49]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[25-Nov-2011 16:07:53]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[25-Nov-2011 16:07:53]	INSERT INTO award_activity (`name`, `activity_id`, `create_time`) VALUES ('大师的撒打算', '6', '1322208473')	E:\workspace\www\smnju\source\lib\table_action.php	58
+[25-Nov-2011 16:08:37]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[25-Nov-2011 16:08:38] PHP Notice:  Trying to get property of non-object in E:\workspace\www\smnju\smarty\templates_c\79833aa5cf103a96bf479cde1402a32cd8397933.file.edit_activity.tpl.php on line 143
+[25-Nov-2011 16:08:38] PHP Stack trace:
+[25-Nov-2011 16:08:38] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 16:08:38] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 16:08:38] PHP   3. AwardController->edit_activity() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 16:08:38] PHP   4. register_smarty() E:\workspace\www\smnju\source\controller\award_controller.class.php:92
+[25-Nov-2011 16:08:38] PHP   5. Smarty->display() E:\workspace\www\smnju\source\lib\function_common.php:352
+[25-Nov-2011 16:08:38] PHP   6. Smarty->fetch() E:\workspace\www\smnju\smarty\libs\Smarty.class.php:382
+[25-Nov-2011 16:08:38] PHP   7. Smarty_Internal_Template->getRenderedTemplate() E:\workspace\www\smnju\smarty\libs\Smarty.class.php:338
+[25-Nov-2011 16:08:38] PHP   8. Smarty_Internal_Template->renderTemplate() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:567
+[25-Nov-2011 16:08:38] PHP   9. include() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:432
+[25-Nov-2011 16:08:38] PHP  10. Smarty_Internal_Template->getRenderedTemplate() E:\workspace\www\smnju\smarty\templates_c\aaf7227226baa0335b4eb20d66f69deaa83785b8.file.layout.tpl.php:107
+[25-Nov-2011 16:08:38] PHP  11. Smarty_Internal_Template->renderTemplate() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:567
+[25-Nov-2011 16:08:38] PHP  12. include() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:432
+[25-Nov-2011 16:11:57]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[25-Nov-2011 16:11:57] PHP Notice:  Trying to get property of non-object in E:\workspace\www\smnju\smarty\templates_c\79833aa5cf103a96bf479cde1402a32cd8397933.file.edit_activity.tpl.php on line 143
+[25-Nov-2011 16:11:57] PHP Stack trace:
+[25-Nov-2011 16:11:57] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[25-Nov-2011 16:11:57] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[25-Nov-2011 16:11:57] PHP   3. AwardController->edit_activity() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[25-Nov-2011 16:11:57] PHP   4. register_smarty() E:\workspace\www\smnju\source\controller\award_controller.class.php:93
+[25-Nov-2011 16:11:57] PHP   5. Smarty->display() E:\workspace\www\smnju\source\lib\function_common.php:352
+[25-Nov-2011 16:11:57] PHP   6. Smarty->fetch() E:\workspace\www\smnju\smarty\libs\Smarty.class.php:382
+[25-Nov-2011 16:11:57] PHP   7. Smarty_Internal_Template->getRenderedTemplate() E:\workspace\www\smnju\smarty\libs\Smarty.class.php:338
+[25-Nov-2011 16:11:57] PHP   8. Smarty_Internal_Template->renderTemplate() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:567
+[25-Nov-2011 16:11:57] PHP   9. include() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:432
+[25-Nov-2011 16:11:57] PHP  10. Smarty_Internal_Template->getRenderedTemplate() E:\workspace\www\smnju\smarty\templates_c\aaf7227226baa0335b4eb20d66f69deaa83785b8.file.layout.tpl.php:107
+[25-Nov-2011 16:11:57] PHP  11. Smarty_Internal_Template->renderTemplate() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:567
+[25-Nov-2011 16:11:57] PHP  12. include() E:\workspace\www\smnju\smarty\libs\sysplugins\smarty_internal_template.php:432
+[27-Nov-2011 15:11:21]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[30-Nov-2011 20:59:44]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:01:35]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:01:44]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:01:45] PHP Notice:  Undefined index: user_id in E:\workspace\www\smnju\source\controller\controller.class.php on line 64
+[04-Dec-2011 15:01:45] PHP Stack trace:
+[04-Dec-2011 15:01:45] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[04-Dec-2011 15:01:45] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[04-Dec-2011 15:01:45] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[04-Dec-2011 15:01:45] PHP Notice:  Undefined index: HTTP_REQUEST_TYPE in E:\workspace\www\smnju\source\lib\function_common.php on line 514
+[04-Dec-2011 15:01:45] PHP Stack trace:
+[04-Dec-2011 15:01:45] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[04-Dec-2011 15:01:45] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[04-Dec-2011 15:01:45] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[04-Dec-2011 15:01:45] PHP   4. in_ajax() E:\workspace\www\smnju\source\controller\controller.class.php:65
+[04-Dec-2011 15:01:47]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:01:47] PHP Notice:  Undefined index: user_id in E:\workspace\www\smnju\source\model\model_adapter.class.php on line 25
+[04-Dec-2011 15:01:47] PHP Stack trace:
+[04-Dec-2011 15:01:47] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[04-Dec-2011 15:01:47] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[04-Dec-2011 15:01:47] PHP   3. TopicController->index() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[04-Dec-2011 15:01:47] PHP   4. __my_autoload() E:\workspace\www\smnju\source\controller\controller.class.php:0
+[04-Dec-2011 15:01:47] PHP   5. include_once() E:\workspace\www\smnju\source\lib\function_common.php:439
+[04-Dec-2011 15:01:47] PHP   6. __my_autoload() E:\workspace\www\smnju\source\lib\function_common.php:0
+[04-Dec-2011 15:01:47] PHP   7. include_once() E:\workspace\www\smnju\source\lib\function_common.php:439
+[04-Dec-2011 15:01:49]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:01:50] PHP Notice:  Undefined index: user_id in E:\workspace\www\smnju\source\controller\controller.class.php on line 64
+[04-Dec-2011 15:01:50] PHP Stack trace:
+[04-Dec-2011 15:01:50] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[04-Dec-2011 15:01:50] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[04-Dec-2011 15:01:50] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[04-Dec-2011 15:01:50] PHP Notice:  Undefined index: HTTP_REQUEST_TYPE in E:\workspace\www\smnju\source\lib\function_common.php on line 514
+[04-Dec-2011 15:01:50] PHP Stack trace:
+[04-Dec-2011 15:01:50] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[04-Dec-2011 15:01:50] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[04-Dec-2011 15:01:50] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[04-Dec-2011 15:01:50] PHP   4. in_ajax() E:\workspace\www\smnju\source\controller\controller.class.php:65
+[04-Dec-2011 15:01:52]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:01:52] PHP Notice:  Undefined index: user_id in E:\workspace\www\smnju\source\model\model_adapter.class.php on line 25
+[04-Dec-2011 15:01:52] PHP Stack trace:
+[04-Dec-2011 15:01:52] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[04-Dec-2011 15:01:52] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[04-Dec-2011 15:01:52] PHP   3. TopicController->index() E:\workspace\www\smnju\source\controller\controller.class.php:11
+[04-Dec-2011 15:01:52] PHP   4. __my_autoload() E:\workspace\www\smnju\source\controller\controller.class.php:0
+[04-Dec-2011 15:01:52] PHP   5. include_once() E:\workspace\www\smnju\source\lib\function_common.php:439
+[04-Dec-2011 15:01:52] PHP   6. __my_autoload() E:\workspace\www\smnju\source\lib\function_common.php:0
+[04-Dec-2011 15:01:52] PHP   7. include_once() E:\workspace\www\smnju\source\lib\function_common.php:439
+[04-Dec-2011 15:01:54]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:01:59]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:02:09]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:02:10]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:04:00]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:04:04]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:04:08]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:10:13]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:23:07]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:23:11]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:25:38]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:25:56]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:26:37]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:28:16]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:28:31]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:30:56]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:33:33]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:34:34]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:40:07]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:40:12]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:41:14]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:41:36]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:41:40]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:41:55]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:43:08]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:43:28]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:43:56]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:44:18]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:44:48]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:45:06]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:47:09]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:53:09]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:54:05]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:54:23]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:55:59]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:57:49]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:58:22]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 15:59:46]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:00:34]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:01:01]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:01:29]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:03:07]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:04:57]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:05:29]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:06:25]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:07:15]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:08:45]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:09:27]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:10:14]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:10:42]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:10:58]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:12:04]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:12:42]	***********************************************
+	E:\workspace\www\smnju\common.php	30
+[04-Dec-2011 16:26:25]	***********************************************
+	E:\workspace\www\smnju\common.php	29
+[04-Dec-2011 16:26:44]	***********************************************
+	E:\workspace\www\smnju\common.php	29
+[04-Dec-2011 16:26:44] PHP Notice:  Undefined index: HTTP_REFERER in E:\workspace\www\smnju\source\lib\function_common.php on line 123
+[04-Dec-2011 16:26:44] PHP Stack trace:
+[04-Dec-2011 16:26:44] PHP   1. {main}() E:\workspace\www\smnju\do.php:0
+[04-Dec-2011 16:26:44] PHP   2. Controller->invoke() E:\workspace\www\smnju\do.php:21
+[04-Dec-2011 16:26:44] PHP   3. Controller->check_method() E:\workspace\www\smnju\source\controller\controller.class.php:10
+[04-Dec-2011 16:26:44] PHP   4. show_message() E:\workspace\www\smnju\source\controller\controller.class.php:17
+[04-Dec-2011 16:26:49]	***********************************************
+	E:\workspace\www\smnju\common.php	29
+[04-Dec-2011 16:27:24]	***********************************************
+	E:\workspace\www\smnju\common.php	29

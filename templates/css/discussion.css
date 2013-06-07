@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+h2 {
+	/*background-image: url("/templates/img/title.png");
+	background-repeat: no-repeat;
+	color: #008000;
+	font-size: 20px;
+	padding: 5px;*/
+	/*background-color:#804000;*/
+}
+.topic_delete {
+	padding-left: 10px;
+	color: red;
+	font-size: 9px;
+}
+.text {
+	padding: 5px;
+}
+/*input[type='text'] {
+	width: 97%;
+	font-size: 18px;
+	padding: 3px;
+}*/
+.info {
+	text-align: center;
+}
+.info p {
+	text-align: center;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	text-indent: 0;
+}
+.info input[type='text'] {
+	font-size: 10px;
+	width: 100px;
+	padding: 0;
+}
+.operations {
+	list-style: none;
+}
+.topic_comment_box {
+	border: 1px solid black;
+	/*width: 98%;
+	padding: 3px 1px 0px 1px;
+	margin: 3px 3px 3px 3px;*/
+	padding:2px;
+	margin:3px 0 0 0;
+}
+
+.comment_content{
+	text-indent:1em;
+}

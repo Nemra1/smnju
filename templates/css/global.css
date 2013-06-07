@@ -1,0 +1,48 @@
+a {
+    text-decoration: none;
+    color:green;
+	font-weight:bold;
+	
+}
+
+a:visited{
+	color:green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+h6 {
+    font-size: 1.1em;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+ul, li {
+    list-style: none;
+}
+
+

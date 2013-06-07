@@ -1,0 +1,33 @@
+{include file="user/header.tpl"}
+<script type="text/javascript" src="{$siteurl}/templates/js/jquery.form.js"></script>
+<div class="content_center max_width widget center">
+{literal}
+<script type="text/javascript">
+    $(function(){
+        $('#change_avatar_commit').click(function(){
+            $("#change_avatar_form").ajaxSubmit({
+                success: function(data){
+					
+				}
+            });
+        });
+        
+    });
+</script>
+{/literal}
+
+<form id="change_avatar_form" action="{$siteurl}/user/avatar/" method="post" enctype="multipart/form-data">
+<img src="{$siteurl}/upload/avatar/{$user->medium_avatar}" />
+<table class="table , center">
+	<tr>
+		<td>更改头像</td>
+		<td><input type="file" name="avatar" /></td>
+	</tr>
+	<tr>
+		<th></th>
+		<td><a href="#" class="submit" id="change_avatar_commit">提交</a></td>
+	</tr>
+</table>
+</form>
+
+</div>

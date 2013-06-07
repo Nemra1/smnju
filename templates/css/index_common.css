@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+/*自定义导航白色*/
+
+#content_container .white_nav{
+}
+
+#content_container .white_nav ul{
+	display:inline-block;
+	background:white;
+	background:rgba(255,255,255,0.4);
+	box-shadow:inset gray 1px 1px 2px ;
+	border-radius: 20px;
+	padding:0 10px 0 10px;
+	
+	behavior: url(ie-css3.htc);/*IE CSS behavior: url(templates/css/ie-css3.htc);*/
+}
+
+#content_container .white_nav ul li{
+	display:inline-block;
+	margin:3px;
+}
+
+#content_container .white_nav ul li a{
+	display:block;
+	font-size:12px;
+	color:#454545;
+	padding:3px;
+	font-weight:bolder;
+}
+
+#content_container .white_nav ul li a:hover{
+	color:gray;
+	text-decoration:none;
+}
+
+/*--------------------------------------------------*/
+
+#content_container .mwidget{
+	margin-bottom:10px;
+	
+	float:left;
+}
+
+#content_container .mwidget h2{
+	font-size:16px;
+	font-weight:normal;
+	padding:3px;
+	font-family:"黑体","Microsoft YaHei", Tahoma, Arial;
+	color:#005700;
+}
+
+#content_container .mwidget .content{
+	padding:5px;
+}
+
+#content_container .mwidget .content li{
+	padding:3px 0 4px 0;
+	border-bottom:1px dotted gray;
+}
+
+#content_container .mwidget .content .date{
+	float:right;
+}
+
+	/*内部迷你消息*/
+#content_container .mwidget .mini {
+    border: 1px solid #999999;
+    background-color: white;
+	background-color: rgba(255,255,255,0.5);
+    margin-bottom: 1px;
+    padding: 3px;
+	
+	text-align:left;
+}
+
+#content_container .mwidget .mini p {
+    display: inline;
+}
+
+#content_container .mwidget .close {
+    color: #003aff;
+}

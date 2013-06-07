@@ -1,0 +1,291 @@
+@CHARSET "UTF-8";
+
+body{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background:#838640 url(../img/main_bg.png) no-repeat top center;
+}
+
+/*公共字体*/
+p,a,li,span,label,th,td{
+	font-size:13px;
+	color:#111111;
+	text-decoration:none;
+	padding:0;
+	margin:0;
+}
+
+/*共享部分*/
+input,textarea{
+	outline:none;
+}
+
+/*导航*/
+#nav{
+	margin-top:200px;
+}
+
+#nav ul{
+	padding:0;
+}
+
+#nav li{
+	list-style:none;
+	text-align:right;
+	padding:5px 10px 5px 0;
+	margin:0 0 0 30px;
+}
+
+#nav li:hover{
+	border-radius: 5px 0 0 5px;
+	background-color:rgba(255,255,255,0.10);
+}
+
+#nav li a{
+	font-family:"楷体";
+	font-size:20px;
+	font-weight:bolder;
+	color:white;
+}
+
+/*界面背景布局*/
+#tb_center{
+	margin:0 auto 0 auto;
+}
+
+#p_left_top{
+	height:646px;
+	width:177px;
+	background:url(../img/left_panel_top.png) no-repeat top center;
+}
+
+#p_left_bottom{
+	width:177px;
+	background:url(../img/left_panel_bottom.png) repeat-y top center;
+}
+
+#p_right{
+	width:684px;
+	background:url(../img/right_panel.png) repeat-y top center;
+}
+
+#p_bottom{
+	height:18px;
+	width:861px;
+	background:url(../img/bottom_panel.png) no-repeat top center;
+}
+
+/*容器*/
+#content{
+	width:650px;
+	margin:10px auto 0 auto;
+}
+
+.widget{
+	margin-bottom:10px;
+	display:inline-block;
+}
+
+.widget h2{
+	padding:0 0 0 0;
+	margin:0;
+	font-family:"黑体";
+	font-size:20px;
+	text-shadow:0px 0px 2px white;
+	color:white;
+	
+	height:27px;
+	
+	border-radius: 5px;
+	padding:5px 0 0 5px;
+}
+
+.widget .water1{
+	background:#720A0B url(../img/water1.png) no-repeat top right;
+}
+
+.widget .water2{
+	background:#7788D4 url(../img/water2.png) no-repeat top right;
+}
+
+.widget .water3{
+	background:#164008 url(../img/water3.png) no-repeat top right;
+}
+
+.widget .water4{
+	background:#6F0A60 url(../img/water4.png) no-repeat top right;
+}
+
+.widget .water5{
+	background:#D39276 url(../img/water5.png) no-repeat top right;
+}
+
+.widget .water_no{
+	background-image:none;
+}
+
+.widget .widget_content{
+	padding:10px 0 0 0;
+}
+
+.widget .widget_content h3{
+	font-size:14px;
+	font-weight:bolder;
+	margin:0;
+	padding:0 10px 0 10px;
+}
+
+.widget ul,.widget ol,.widget li{
+	padding:0;
+	margin:0;
+}
+
+.widget ol{
+	padding:0 4px 0 4px;
+	list-style-position:inside;
+}
+
+.widget li{
+	padding:0 0 5px 0;
+	border-bottom:1px dashed gray;
+}
+
+.widget li p{
+	padding:0 5px 0 15px;
+	margin:0;
+	text-indent:2em;
+}
+
+.widget h2 a{
+	color:white;
+	float:right;
+	padding:2px 5px 0 0;
+}
+
+	/*内部分割消息*/
+.widget .des {
+	border-bottom:1px solid #8ec7ff;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.widget .des h3{
+	padding:0;
+	margin:0;
+	color:#002f5e;
+}
+
+.widget .des p{
+	margin-top:5px;
+	text-indent:2em;
+	color:#005ab5;
+}
+
+	/*内部小对话框*/
+.widget .dialog{
+	display:inline-block;
+	border:1px solid #5fb0eb;
+	background-color:#f0f7ff;
+	margin-bottom:1px;
+	padding:3px;
+}
+
+	/*内部迷你消息*/
+
+.widget .mini{
+	border:1px solid #5fb0eb;
+	background-color:#f0f7ff;
+	margin-bottom:1px;
+	padding:3px;
+}
+
+.widget .mini p{
+	display:inline;
+}
+
+.widget .close{
+	color:#003aff;
+}
+
+	/*内部表格格式化*/
+
+.widget .table th{
+	color:#444444;
+	text-align:center;
+}
+
+.widget .table input[type="text"],
+.widget .table input[type="password"],
+.widget .table textarea,
+.widget .table select{
+	border-radius: 5px;
+	border:1px solid gray;
+	padding:3px;
+	width:160px;
+	max-width:160px;
+}
+
+.widget .table select{
+	width:60px;
+	padding:1px;
+}
+
+.widget .table select + select{
+	width:47px;
+}
+
+.widget .table input[type='submit'],
+.widget .table input[type='button']{
+	border-radius: 5px;
+	border:2px solid #558855;
+	padding:3px 10px 3px 10px;
+	background-color:rgba(0,100,0,0.10);
+	color:#008000;
+}
+
+.widget .table input[type='submit']:hover,
+.widget .table input[type='button']:hover{
+	background-color:rgba(100,200,100,0.10);
+}
+
+/*杂项*/
+
+.max_width{
+	width:100%;
+}
+
+.half_width{
+	width:49%;
+	display:inline-block;
+}
+
+.center{
+	margin:0 auto 0 auto;
+}
+
+.content_center{
+	text-align:center;
+}
+
+.right{
+	float:right;
+}
+
+.gray{
+	color:#444444;
+}
+
+.red{
+	color:red;
+}
+
+.blue{
+	color:#0063c6;
+}
+
+.roundSide{
+	border-radius: 5px;
+	border:1px solid #7dbeff;
+	padding:2px 9px 2px 9px;
+	background-color:white;
+}

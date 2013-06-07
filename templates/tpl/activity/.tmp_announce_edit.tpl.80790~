@@ -1,0 +1,8 @@
+<script type="text/javascript">
+	$(function(){
+		  var activity_display_editor = replace_editor('activity_display_editor');
+	});
+</script>
+<div id="activity_display">
+	 <input id="activity_display_editor" name="activity_display_editor" />
+</div>

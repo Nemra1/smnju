@@ -1,0 +1,71 @@
+<script type="text/javascript">
+    $(function(){
+        $('#privacy_register_commit').click(function(){
+ 
+            var url = $("#privacy_register_form").eq(0).attr('action');
+            var submit_data = {};
+            $("#privacy_register_form :checkbox").each(function(){
+                var name = $(this).attr('name');
+                var value = $(this).attr('checked');
+                if (value) 
+                    submit_data[name] = '1';
+                else 
+                    submit_data[name] = '0';
+            });
+            
+            $.post(url, submit_data,function(data){
+				var r=get_ajax_result(data);
+				if(r['code']==0){
+					show_message_box('注册成功');
+					delay_redirect("/user/show/");
+				}else{
+					show_message_box(r['info']);
+				}
+			});
+			show_wait_message_box('提交中……');
+            return false;
+        });
+    });
+</script>
+<form id="privacy_register_form" action="{$siteurl}/user/privacy_register/" method="post">
+    <div>
+        <label>
+            公开姓名
+        </label>
+        <input name="name" type="checkbox" checked />
+    </div>
+    <div>
+        <label>
+            公开院系
+        </label>
+        <input type="checkbox" name="institute" checked />
+    </div>
+    <div>
+        <label>
+            公开性别
+        </label>
+        <input name="gender" type="checkbox"  checked />
+    </div>
+    <div>
+        <label>
+            公开手机
+        </label>
+        <input name="telnum" type="checkbox"  />
+    </div>
+    <div>
+        <label>
+            公开邮箱
+        </label>
+        <input name="email" type="checkbox"  />
+    </div>
+    <div>
+        <label>
+            公开生日
+        </label>
+        <input name="birthday" type="checkbox" checked />
+    </div>
+    <div>
+        <a href="#" id="privacy_register_commit">提交</a>
+        <a href="{$siteurl}/user/show/" id="privacy_register_skip">跳过（完成注册）</a>
+    </div>
+</form>

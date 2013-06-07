@@ -1,0 +1,348 @@
+[11-Dec-2011 11:57:40] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 11:57:40] PHP Stack trace:
+[11-Dec-2011 11:57:40] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 11:57:40] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:40] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:40] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 11:57:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 11:57:44] PHP Stack trace:
+[11-Dec-2011 11:57:44] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 11:57:44] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:44] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:44] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 11:57:47] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 11:57:47] PHP Stack trace:
+[11-Dec-2011 11:57:47] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 11:57:47] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:47] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:47] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 11:57:50] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 11:57:50] PHP Stack trace:
+[11-Dec-2011 11:57:50] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 11:57:50] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:50] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:50] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 11:57:50] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 11:57:50] PHP Stack trace:
+[11-Dec-2011 11:57:50] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 11:57:50] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:50] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:57:50] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 11:58:27] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 11:58:27] PHP Stack trace:
+[11-Dec-2011 11:58:27] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 11:58:27] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:58:27] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:58:27] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 11:59:28] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 11:59:28] PHP Stack trace:
+[11-Dec-2011 11:59:28] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 11:59:28] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:59:28] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 11:59:28] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:00:38] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:00:38] PHP Stack trace:
+[11-Dec-2011 12:00:38] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:00:38] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:00:38] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:00:38] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:01:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:01:44] PHP Stack trace:
+[11-Dec-2011 12:01:44] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:01:44] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:01:44] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:01:44] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:02:51] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:02:51] PHP Stack trace:
+[11-Dec-2011 12:02:51] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:02:51] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:02:51] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:02:51] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:03:58] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:03:58] PHP Stack trace:
+[11-Dec-2011 12:03:58] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:03:58] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:03:58] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:03:58] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:05:04] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:05:04] PHP Stack trace:
+[11-Dec-2011 12:05:04] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:05:04] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:05:04] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:05:04] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:06:11] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:06:11] PHP Stack trace:
+[11-Dec-2011 12:06:11] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:06:11] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:06:11] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:06:11] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:07:17] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:07:17] PHP Stack trace:
+[11-Dec-2011 12:07:17] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:07:17] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:07:17] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:07:17] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:08:24] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:08:24] PHP Stack trace:
+[11-Dec-2011 12:08:24] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:08:24] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:08:24] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:08:24] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:09:30] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:09:30] PHP Stack trace:
+[11-Dec-2011 12:09:30] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:09:30] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:09:30] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:09:30] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:10:37] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:10:37] PHP Stack trace:
+[11-Dec-2011 12:10:37] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:10:37] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:10:37] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:10:37] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:11:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:11:44] PHP Stack trace:
+[11-Dec-2011 12:11:44] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:11:44] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:11:44] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:11:44] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:12:51] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:12:51] PHP Stack trace:
+[11-Dec-2011 12:12:51] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:12:51] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:12:51] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:12:51] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:13:58] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:13:58] PHP Stack trace:
+[11-Dec-2011 12:13:58] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:13:58] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:13:58] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:13:58] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:15:05] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:15:05] PHP Stack trace:
+[11-Dec-2011 12:15:05] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:15:05] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:15:05] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:15:05] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:16:12] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:16:12] PHP Stack trace:
+[11-Dec-2011 12:16:12] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:16:12] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:16:12] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:16:12] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:17:19] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:17:19] PHP Stack trace:
+[11-Dec-2011 12:17:19] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:17:19] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:17:19] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:17:19] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:18:25] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:18:25] PHP Stack trace:
+[11-Dec-2011 12:18:25] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:18:25] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:18:25] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:18:25] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:19:32] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:19:32] PHP Stack trace:
+[11-Dec-2011 12:19:32] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:19:32] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:19:32] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:19:32] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:20:39] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:20:39] PHP Stack trace:
+[11-Dec-2011 12:20:39] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:20:39] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:20:39] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:20:39] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:21:45] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:21:45] PHP Stack trace:
+[11-Dec-2011 12:21:45] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:21:45] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:21:45] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:21:45] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:22:52] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:22:52] PHP Stack trace:
+[11-Dec-2011 12:22:52] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:22:52] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:22:52] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:22:52] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:23:59] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:23:59] PHP Stack trace:
+[11-Dec-2011 12:23:59] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:23:59] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:23:59] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:23:59] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:25:07] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:25:07] PHP Stack trace:
+[11-Dec-2011 12:25:07] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:25:07] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:25:07] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:25:07] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:26:13] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:26:13] PHP Stack trace:
+[11-Dec-2011 12:26:13] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:26:13] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:26:13] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:26:13] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:27:20] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:27:20] PHP Stack trace:
+[11-Dec-2011 12:27:20] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:27:20] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:27:20] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:27:20] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:28:27] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:28:27] PHP Stack trace:
+[11-Dec-2011 12:28:27] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:28:27] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:28:27] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:28:27] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:29:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:29:35] PHP Stack trace:
+[11-Dec-2011 12:29:35] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:29:35] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:29:35] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:29:35] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:30:41] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:30:41] PHP Stack trace:
+[11-Dec-2011 12:30:41] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:30:41] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:30:41] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:30:41] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:31:49] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:31:49] PHP Stack trace:
+[11-Dec-2011 12:31:49] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:31:49] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:31:49] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:31:49] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:32:56] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:32:56] PHP Stack trace:
+[11-Dec-2011 12:32:56] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:32:56] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:32:56] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:32:56] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:34:02] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:34:02] PHP Stack trace:
+[11-Dec-2011 12:34:02] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:34:02] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:34:02] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:34:02] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:35:09] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:35:09] PHP Stack trace:
+[11-Dec-2011 12:35:09] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:35:09] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:35:09] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:35:09] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:36:16] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:36:16] PHP Stack trace:
+[11-Dec-2011 12:36:16] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:36:16] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:36:16] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:36:16] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:37:22] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:37:22] PHP Stack trace:
+[11-Dec-2011 12:37:22] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:37:22] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:37:22] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:37:22] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:38:29] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:38:29] PHP Stack trace:
+[11-Dec-2011 12:38:29] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:38:29] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:38:29] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:38:29] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:39:36] PHP Stack trace:
+[11-Dec-2011 12:39:36] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:39:36] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:39:36] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:39:36] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:40:42] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:40:42] PHP Stack trace:
+[11-Dec-2011 12:40:42] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:40:42] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:40:42] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:40:42] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:41:49] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:41:49] PHP Stack trace:
+[11-Dec-2011 12:41:49] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:41:49] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:41:49] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:41:49] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:42:59] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:42:59] PHP Stack trace:
+[11-Dec-2011 12:42:59] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:42:59] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:42:59] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:42:59] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:44:10] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:44:10] PHP Stack trace:
+[11-Dec-2011 12:44:10] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:44:10] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:44:10] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:44:10] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:45:17] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:45:17] PHP Stack trace:
+[11-Dec-2011 12:45:17] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:45:17] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:45:17] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:45:17] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:46:23] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:46:23] PHP Stack trace:
+[11-Dec-2011 12:46:23] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:46:23] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:46:23] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:46:23] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:47:31] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:47:31] PHP Stack trace:
+[11-Dec-2011 12:47:31] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:47:31] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:47:31] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:47:31] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:48:38] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:48:38] PHP Stack trace:
+[11-Dec-2011 12:48:38] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:48:38] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:48:38] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:48:38] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:49:45] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:49:45] PHP Stack trace:
+[11-Dec-2011 12:49:45] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:49:45] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:49:45] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:49:45] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:50:51] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:50:51] PHP Stack trace:
+[11-Dec-2011 12:50:51] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:50:51] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:50:51] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:50:51] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:51:58] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:51:58] PHP Stack trace:
+[11-Dec-2011 12:51:58] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:51:58] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:51:58] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:51:58] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:53:05] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:53:05] PHP Stack trace:
+[11-Dec-2011 12:53:05] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:53:05] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:53:05] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:53:05] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:54:14] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:54:14] PHP Stack trace:
+[11-Dec-2011 12:54:14] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:54:14] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:54:14] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:54:14] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:55:18] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:55:18] PHP Stack trace:
+[11-Dec-2011 12:55:18] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:55:18] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:55:18] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:55:18] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134
+[11-Dec-2011 12:56:26] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php on line 134
+[11-Dec-2011 12:56:26] PHP Stack trace:
+[11-Dec-2011 12:56:26] PHP   1. {main}() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:0
+[11-Dec-2011 12:56:26] PHP   2. call_user_func() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:56:26] PHP   3. heartbeat() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:429
+[11-Dec-2011 12:56:26] PHP   4. mysql_fetch_array() E:\workspace\www\smnju\cometchat\modules\chatrooms\chatrooms.php:134

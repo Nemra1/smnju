@@ -1,0 +1,60 @@
+{literal}
+<script type="text/javascript">
+    $(function(){
+        $('#user_login_commit').click(function(){
+ 
+            
+            var data=form2array('user_login_form');
+            if (data['student_number'].length == 0 || data['password'].length == 0) {
+                show_message_box('请填写完整！');
+                return false;
+            }
+            $.post(site_url + '/login/', data,function(data){
+				var r=get_ajax_result(data);
+				if (r['code'] == 0) {
+					show_message_box('登陆成功!跳转至个人主页。');
+					delay_redirect("/user/show/");
+				}else{
+					show_message_box(r['info']);
+				}
+			});
+            show_wait_message_box('登录中……');
+            return false;
+        });
+    })
+</script>
+{/literal}
+<form id="user_login_form" action="/login/" method="post">
+    <div class="widget , max_width">
+        <h2 class="water5">账户登录</h2>
+        <div class="widget_content">
+            <div class="table , dialog" style="margin-top: 150px;">
+                <table>
+                    <tr>
+                        <th>
+                            学&nbsp;&nbsp;号 ：
+                        </th>
+                        <td>
+                            <input type="text" name="student_number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            密&nbsp;&nbsp;码 ：
+                        </th>
+                        <td>
+                            <input type="password" name="password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                        </th>
+                        <td>
+                            <a class="submit" href="#" id="user_login_commit">登录</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</form>

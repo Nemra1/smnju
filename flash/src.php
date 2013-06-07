@@ -1,0 +1,71 @@
+<?php
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<pics>
+	<pic>
+		<title>
+			热烈庆祝国庆到来
+		</title>
+		<context>
+			毛子说文本要超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级长
+		</context>
+		<url>
+			http://".$_SERVER['HTTP_HOST']."/flash/1.png
+		</url>
+	</pic>
+	<pic>
+		<title>
+			开玩笑的啦~
+		</title>
+		<context>
+			毛子说文本要超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级长
+		</context>
+		<url>
+			http://".$_SERVER['HTTP_HOST']."/flash/2.jpg
+		</url>
+	</pic>
+	<pic>
+		<title>
+			test ABC
+		</title>
+		<context>
+			毛子说文本要超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级长
+		</context>
+		<url>
+			http://".$_SERVER['HTTP_HOST']."/flash/3.jpg
+		</url>
+	</pic>
+	<pic>
+		<title>
+			hahahaha
+		</title>
+		<context>
+			毛子说文本要超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级长
+		</context>
+		<url>
+			http://".$_SERVER['HTTP_HOST']."/flash/4.jpg
+		</url>
+	</pic>
+	<pic>
+		<title>
+			aaaaaaaa
+		</title>
+		<context>
+			毛子说文本要超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级长
+		</context>
+		<url>
+			http://".$_SERVER['HTTP_HOST']."/flash/5.jpg
+		</url>
+	</pic>
+	<pic>
+		<title>
+			什么什么实践课？！
+		</title>
+		<context>
+			毛子说文本要超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级长
+		</context>
+		<url>
+			http://".$_SERVER['HTTP_HOST']."/flash/6.jpg
+		</url>
+	</pic>
+</pics>";
+?>

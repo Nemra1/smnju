@@ -1,0 +1,44 @@
+{include file="activity_announcement/admin_header.tpl"}
+<script type="text/javascript" src="{$siteurl}/templates/ckeditor/ckeditor.js">
+</script>
+{literal}
+<script type="text/javascript">
+    $(function(){
+        if (can_click_ajax == 0) {
+            return false;
+        }
+        $('#activity_announcement_create_commit').click(function(){
+            set_ckeditor_val();
+            var url = $('#activity_announcement_create_form').attr('action');
+            var submit_data = form2array('activity_announcement_create_form');
+            if (submit_data['name'].length == 0 || submit_data['content'].length == 0 || submit_data['activity_id'].length == 0) {
+                show_form_message_box('信息不完整！');
+            }
+            $.post(url, submit_data);
+            show_wait_message_box('创建中……');
+        });
+    })
+</script>
+{/literal}
+<form id="activity_announcement_create_form" action="{$siteurl}/activity_announcement/create/" method="post">
+    <div>
+        <label>
+            标题
+        </label>
+        <input type="text" name="name" />
+    </div>
+    <div>
+        <label>
+            内容
+        </label>
+        <input id="activity_create_announcement_editor" class="ck_editor" name="content" />
+    </div>
+    <div>
+        <select name="activity_id">
+            {html_options options=$activity_options}
+        </select>
+    </div>
+    <div>
+        <a href="#" id="activity_announcement_create_commit">创建</a>
+    </div>
+</form>

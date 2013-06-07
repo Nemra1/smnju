@@ -1,0 +1,25 @@
+{include file="activity/admin_header.tpl"}
+<div>
+    <a href="{$siteurl}/activity/create/">创建活动</a>
+</div>
+<div>
+    <ol>
+        {foreach from=$activities item=activity}
+        <li>
+            <a href="{$siteurl}/activity/{$activity->id}">{$activity->name} </a>
+            <span><a href="{$siteurl}/activity/edit/{$activity->id}">修改</a><a href="#" num="{$activity->id}" class="delete_activity"> 删除</a></span>
+        </li>
+        {/foreach}
+    </ol>
+</div>
+{literal}
+<script type="text/javascript">
+    $(function(){
+        $('.delete_activity').click(function(){
+            var id = $(this).attr('num');
+			show_confirm_message_box('您确定要删除吗？',function(){$.post(site_url + '/activity/delete/' + id);});
+            
+        });
+    });
+</script>
+{/literal}

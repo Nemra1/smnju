@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body{
+	min-width:1000px;
+	min-height:1400px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background:#838640 url(../img/main_bg.png) no-repeat top center;
+}
+
+#main_body{
+	width:960px;
+	height:auto;
+	position:relative;
+	margin:auto;
+}
+
+/*Nav area*/
+#main_body .nav_area{
+	width:180px;
+	height:1400px;
+	background:url(../img/left_panel.png) no-repeat top right;
+	float:left;
+	margin-left:0;
+}
+
+#main_body .nav_text{
+	margin:250px auto auto auto;
+	cursor:default;
+}
+
+#main_body .nav_text li{
+	height:39px;
+	width:150px;
+	color:#FFF;
+	font-size:16px;
+	list-style:none;
+	padding:10px inherit inherit inherit;
+}
+
+#nav_arrow{
+	position:absolute;
+	left:165px;
+	top:255px;
+	width:21px;
+	height:26px;
+	background:url(../img/nav_arrow.png) no-repeat;
+}
+
+#main_body .nav_text li:hover{
+	background:url(../img/over_bg.png) no-repeat;
+}
+
+#main_body .content_area{
+	width:780px;
+	height:1400px;
+	background:url(../img/main_panel.png) no-repeat top left;
+	float:left;
+	margin-left:0;
+}
+
+#hint{
+	width:240px;
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	color:#FFF;
+	font-size:14px;
+	float:right;
+	margin: 10px 70px 0 0;
+}
+#intro{
+	color:#85addb;
+	width:680px;
+	height:70px;
+	text-align:right;
+	float:right;
+	margin: 30px 170px 0 0;
+}
+#personal_style{
+	width:650px;
+	height:250px;
+	float:left;
+	padding:0 15px 0 15px;
+}
+
+#personal_style .banner{
+	width:595px;
+	height:31px;
+	background:url(../img/grfx.gif) no-repeat;
+	float:left;
+	margin-bottom:10px;
+}
+
+#picWall{
+	width:600px;
+	height:400px;
+	position:relative;
+	margin:auto;
+}
+
+#notice{
+	width:241px;
+	height:200px;
+	float:left;
+	padding:0 15px 0 15px;
+}
+
+#notice .banner{
+	width:241px;
+	height:32px;
+	background:url(../img/gg.gif) no-repeat;
+	float:left;
+	margin-bottom:10px;
+}
+
+#notice ul{
+	width:241px;
+	height:200px;
+	position:relative;
+	margin:auto;
+	padding:0 0 0 0;
+}
+
+#notice li{
+	width:241px;
+	height:20px;
+	text-decoration:none;
+}
+
+#recent{
+	width:409px;
+	height:200px;
+	float:left;
+	padding:0 15px 0 15px;
+}
+
+#recent .banner{
+	width:326px;
+	height:32px;
+	background:url(../img/zxdt.gif) no-repeat;
+	float:left;
+}
+#main_bbs{
+	width:650px;
+	height:auto;
+	float:left;
+	padding:0 15px 0 15px;
+}
+
+#main_bbs .banner{
+	width:630px;
+	height:32px;
+	background:url(../img/bbs_bar.gif) no-repeat;
+	float:left;
+}

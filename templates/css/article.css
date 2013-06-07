@@ -1,0 +1,9 @@
+.operations {
+	list-style: none;
+}
+.article_comment_box {
+	border: 1px solid black;
+	width: 98%;
+	padding: 3px 1px 0px 1px;
+	margin: 3px 3px 3px 3px;
+}
